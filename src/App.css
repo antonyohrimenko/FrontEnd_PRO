@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   display: flex; /* Используем Flexbox для горизонтального выравнивания */
+  flex-direction: column;
   flex-wrap: wrap; /* Если не влезает в строку, компоненты переносятся */
   gap: 1rem; /* Расстояние между компонентами */
   justify-content: center; /* Центрируем компоненты по горизонтали */
